@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source files">
+      <UniqueIdentifier>{a22cc081-bb69-4268-8389-012e86d78ffe}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header files">
+      <UniqueIdentifier>{b8d8bb8b-758d-46f0-a4fd-6ef85de69344}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource files">
+      <UniqueIdentifier>{81a9e4bd-aa9e-41a0-8a45-f2b3313fd147}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Make files">
+      <UniqueIdentifier>{87ae7e6e-2e18-4d89-a115-a637dc4dd1d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VisualGDB settings">
+      <UniqueIdentifier>{f07f7331-88ab-426a-bf51-b7fe9d2c5c92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{b3727c8b-ec0f-4f72-8b38-14b873f2b735}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Module">
+      <UniqueIdentifier>{a132ed4c-818b-406a-8624-bf99a98ab441}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Server">
+      <UniqueIdentifier>{ecc99cee-5f3d-4eb3-ba4c-bfbe7c6b560b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{33c79114-7907-4eaa-96a3-71893fe811d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils\ThirdParty">
+      <UniqueIdentifier>{eb8dd557-a835-49c4-9352-110956994757}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils\Listener">
+      <UniqueIdentifier>{cffa8117-dc52-4a1b-ab7a-f61f49054cc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ServerControl">
+      <UniqueIdentifier>{4150ab8d-8d26-40f8-901b-84786975dfb9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\debug.mak">
+      <Filter>Make files</Filter>
+    </None>
+    <None Include="..\..\release.mak">
+      <Filter>Make files</Filter>
+    </None>
+    <None Include="WorldServer-Debug.vgdbsettings">
+      <Filter>VisualGDB settings</Filter>
+    </None>
+    <None Include="WorldServer-Release.vgdbsettings">
+      <Filter>VisualGDB settings</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\Makefile" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Utils\Log.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Module\Module.cpp">
+      <Filter>Module</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Module\ModuleThread.cpp">
+      <Filter>Module</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Server\NUSocket.cpp">
+      <Filter>Server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\main.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Server\GameServer.cpp">
+      <Filter>Server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Module\ModuleLock.cpp">
+      <Filter>Module</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Module\ModuleTime.cpp">
+      <Filter>Module</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Module\ModuleThreadPool.cpp">
+      <Filter>Module</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Server\NUPool.cpp">
+      <Filter>Server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Utils\ThirdParty\Base64.cpp">
+      <Filter>Utils\ThirdParty</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Utils\ThirdParty\MD5.cpp">
+      <Filter>Utils\ThirdParty</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Utils\ThirdParty\SHA1.cpp">
+      <Filter>Utils\ThirdParty</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Server\GameMgr.cpp">
+      <Filter>Server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Utils\Listener\Listener.cpp">
+      <Filter>Utils\Listener</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ServerControl\GameHall.pb.cc">
+      <Filter>ServerControl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ServerControl\Hall.cpp">
+      <Filter>ServerControl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Utils\ThirdParty\cJSON.c">
+      <Filter>Utils\ThirdParty</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ServerControl\SubGameServer.cpp">
+      <Filter>ServerControl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Utils\XMLHttpRequest.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Utils\Log.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Module\Module.h">
+      <Filter>Module</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Module\ModuleThread.h">
+      <Filter>Module</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Server\NUSocket.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\PublicCommon.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Server\GameServer.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Module\ModuleLock.h">
+      <Filter>Module</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Module\ModuleTime.h">
+      <Filter>Module</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Module\ModuleThreadPool.h">
+      <Filter>Module</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Server\NUPool.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Utils\ThirdParty\Base64.h">
+      <Filter>Utils\ThirdParty</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Utils\ThirdParty\MD5.h">
+      <Filter>Utils\ThirdParty</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Utils\ThirdParty\SHA1.h">
+      <Filter>Utils\ThirdParty</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Server\GameMgr.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Utils\Listener\Listener.h">
+      <Filter>Utils\Listener</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ServerControl\GameHall.pb.h">
+      <Filter>ServerControl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ServerControl\Hall.h">
+      <Filter>ServerControl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ServerControl\ActionCode.h">
+      <Filter>ServerControl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Utils\ThirdParty\cJSON.h">
+      <Filter>Utils\ThirdParty</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ServerControl\SubGameServer.h">
+      <Filter>ServerControl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Utils\XMLHttpRequest.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

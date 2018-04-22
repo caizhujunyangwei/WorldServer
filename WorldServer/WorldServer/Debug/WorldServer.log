@@ -1,0 +1,8 @@
+﻿  VisualGDB: Sending 1 updated source file to build machine...
+  VisualGDB: Run "make  CONFIG=Debug" in directory "/GameServer/WorldServer" on root@120.79.176.204 (SSH)
+  g++ -std=gnu++0x -ggdb -ffunction-sections -O3  -I/usr/local/include -DDEBUG=1  -c ServerControl/Hall.cpp -o Debug/Hall.o -MD -MF Debug/Hall.dep
+  C:\Users\YW\Desktop\WorldServer\WorldServer\ServerControl\Hall.cpp(5):
+C:\Users\YW\Desktop\WorldServer\WorldServer\ServerControl\..\Utils\XMLHttpRequest.h(99,44): warning : backslash-newline at end of file [enabled by default]
+   #define setontimeout(_phttp,_pfunc,_target)\
+   ^
+  g++ -o Debug/WorldServer -Wl,-gc-sections   -L/usr/local/lib -Wl,--start-group Debug/main.o Debug/Module.o Debug/ModuleLock.o Debug/ModuleThread.o Debug/ModuleThreadPool.o Debug/ModuleTime.o Debug/GameHall.pb.o Debug/Hall.o Debug/SubGameServer.o Debug/GameMgr.o Debug/GameServer.o Debug/NUPool.o Debug/NUSocket.o Debug/Listener.o Debug/Log.o Debug/Base64.o Debug/cJSON.o Debug/MD5.o Debug/SHA1.o Debug/XMLHttpRequest.o -lpthread -lprotoc -lprotobuf -lprotobuf-lite -lcurl  -Wl,--rpath='$ORIGIN'   -Wl,--end-group
